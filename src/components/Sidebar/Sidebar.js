@@ -92,7 +92,7 @@ class Sidebar extends React.Component {
 						link='/app/main'
 						index='main'
 					/>
-					<h5 className={[s.navTitle, s.groupTitle].join(' ')}>TEMPLATE</h5>
+					{/* <h5 className={[s.navTitle, s.groupTitle].join(' ')}>TEMPLATE</h5> */}
 					<LinksGroup
 						onActiveSidebarItemChange={(activeItem) =>
 							this.props.dispatch(changeActiveSidebarItem(activeItem))
@@ -126,7 +126,7 @@ class Sidebar extends React.Component {
 						link='/app/diagnose'
 						index='diagnose'
 					/>
-					<LinksGroup
+					{/* <LinksGroup
 						onActiveSidebarItemChange={(activeItem) =>
 							this.props.dispatch(changeActiveSidebarItem(activeItem))
 						}
@@ -183,7 +183,7 @@ class Sidebar extends React.Component {
 								link: '/app/maps',
 							},
 						]}
-					/>
+					/> */}
 				</ul>
 				{/* <h5 className={s.navTitle}>
 					LABELS
