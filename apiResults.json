@@ -1,153 +1,180 @@
 {
-  "mapData": [
-    {
-      "latitude": 40.717079,
-      "longitude": -74.00116,
-      "size": 6,
-      "tooltip": "New York",
-      "fill": "#F00"
-    },
-    {
-      "latitude": 33.145235,
-      "longitude": -83.811834,
-      "size": 7,
-      "tooltip": "Oconee National Forest"
-    },
-    {
-      "latitude": 37.792032,
-      "longitude": -122.394613,
-      "size": 4,
-      "tooltip": "San Francisco"
-    },
-    {
-      "latitude": 26.93508,
-      "longitude": -80.851766,
-      "size": 9,
-      "tooltip": "Lake Okeechobee"
-    },
-    {
-      "latitude": 36.331308,
-      "longitude": -83.33605,
-      "size": 4,
-      "tooltip": "Grainger County"
-    },
-    {
-      "latitude": 36.269356,
-      "longitude": -76.587477,
-      "size": 8,
-      "tooltip": "Chowan County"
-    },
-    {
-      "latitude": 30.700644,
-      "longitude": -95.145249,
-      "size": 6,
-      "tooltip": "Lake Livingston"
-    },
-    {
-      "latitude": 34.546708,
-      "longitude": -90.211471,
-      "size": 5,
-      "tooltip": "Tunica County"
-    },
-    {
-      "latitude": 32.628599,
-      "longitude": -103.675115,
-      "size": 5,
-      "tooltip": "Lea County"
-    },
-    {
-      "latitude": 40.456692,
-      "longitude": -83.522688,
-      "size": 5,
-      "tooltip": "Union County"
-    },
-    {
-      "latitude": 33.84463,
-      "longitude": -118.157483,
-      "size": 6,
-      "tooltip": "Lakewood Mutual"
-    }
-  ],
-  "DiagnoseData": [
-    {
-      "id": "1",
-      "Abnormality": "1",
-      "Detected": "Yes",
-      "Probability": 80,
-      "Risk": "High"
-    },
-    {
-      "id": "3",
-      "Abnormality": "3",
-      "Detected": "Yes",
-      "Probability": 80,
-      "Risk": "High"
-    },
-    {
-      "id": "2",
-      "Abnormality": "2",
-      "Detected": "Yes",
-      "Probability": 80,
-      "Risk": "High"
-    },
-    {
-      "id": "tk4qGV0"
-    },
-    {
-      "id": "5eCJNPo"
-    }
-  ],
-  "DeathsData": [
-    {
-      "deaths": 4444,
-      "country": "USA",
-      "percentileInc": 20
-    },
-    {
-      "deaths": 3333,
-      "country": "Russia",
-      "percentileInc": 40
-    },
-    {
-      "deaths": 2222,
-      "country": "Brasil",
-      "percentileInc": 50
-    },
-    {
-      "deaths": 1111,
-      "country": "USA",
-      "percentileInc": 30
-    },
-    {
-      "deaths": 999,
-      "country": "USA",
-      "percentileInc": 70
-    },
-    {
-      "deaths": 888,
-      "country": "USA",
-      "percentileInc": 41
-    }
-  ],
-  "selectedMonthEvents": [
-    {
-      "title": "New lot of vaccine",
-      "info": "Have a kick off meeting with .inc company",
-      "itemStyle": "#f0b518",
-      "date": "2021-01-21"
-    },
-    {
-      "title": "USA ban",
-      "info": "Some contents here",
-      "itemStyle": "#58d777",
-      "date": "2021-01-15"
-    },
-    {
-      "title": "madarna Vaccine",
-      "info": "",
-      "itemStyle": "#f45722",
-      "link": "http://www.flatlogic.com",
-      "date": "2021-01-13"
-    }
-  ]
+	"mapData": [
+		{
+			"latitude": 40.717079,
+			"longitude": -74.00116,
+			"size": 6,
+			"tooltip": "New York",
+			"fill": "#F00"
+		},
+		{
+			"latitude": 33.145235,
+			"longitude": -83.811834,
+			"size": 7,
+			"tooltip": "Oconee National Forest"
+		},
+		{
+			"latitude": 37.792032,
+			"longitude": -122.394613,
+			"size": 4,
+			"tooltip": "San Francisco"
+		},
+		{
+			"latitude": 26.93508,
+			"longitude": -80.851766,
+			"size": 9,
+			"tooltip": "Lake Okeechobee"
+		},
+		{
+			"latitude": 36.331308,
+			"longitude": -83.33605,
+			"size": 4,
+			"tooltip": "Grainger County"
+		},
+		{
+			"latitude": 36.269356,
+			"longitude": -76.587477,
+			"size": 8,
+			"tooltip": "Chowan County"
+		},
+		{
+			"latitude": 30.700644,
+			"longitude": -95.145249,
+			"size": 6,
+			"tooltip": "Lake Livingston"
+		},
+		{
+			"latitude": 34.546708,
+			"longitude": -90.211471,
+			"size": 5,
+			"tooltip": "Tunica County"
+		},
+		{
+			"latitude": 32.628599,
+			"longitude": -103.675115,
+			"size": 5,
+			"tooltip": "Lea County"
+		},
+		{
+			"latitude": 40.456692,
+			"longitude": -83.522688,
+			"size": 5,
+			"tooltip": "Union County"
+		},
+		{
+			"latitude": 33.84463,
+			"longitude": -118.157483,
+			"size": 6,
+			"tooltip": "Lakewood Mutual"
+		}
+	],
+	"DiagnoseData": [
+		{
+			"id": "1",
+			"Abnormality": "1",
+			"Detected": "Yes",
+			"Probability": 80,
+			"Risk": "High"
+		},
+		{
+			"id": "3",
+			"Abnormality": "3",
+			"Detected": "Yes",
+			"Probability": 80,
+			"Risk": "High"
+		},
+		{
+			"id": "2",
+			"Abnormality": "2",
+			"Detected": "Yes",
+			"Probability": 80,
+			"Risk": "High"
+		},
+		{
+			"id": "tk4qGV0"
+		},
+		{
+			"id": "5eCJNPo"
+		}
+	],
+	"DeathsData": [
+		{
+			"deaths": 4444,
+			"country": "USA",
+			"percentileInc": 20
+		},
+		{
+			"deaths": 3333,
+			"country": "Russia",
+			"percentileInc": 40
+		},
+		{
+			"deaths": 2222,
+			"country": "Brasil",
+			"percentileInc": 50
+		},
+		{
+			"deaths": 1111,
+			"country": "USA",
+			"percentileInc": 30
+		},
+		{
+			"deaths": 999,
+			"country": "USA",
+			"percentileInc": 70
+		},
+		{
+			"deaths": 888,
+			"country": "USA",
+			"percentileInc": 41
+		}
+	],
+	"selectedMonthEvents": [
+		{
+			"title": "New lot of vaccine",
+			"info": "Have a kick off meeting with .inc company",
+			"itemStyle": "#f0b518",
+			"date": "2021-01-21"
+		},
+		{
+			"title": "USA ban",
+			"info": "Some contents here",
+			"itemStyle": "#58d777",
+			"date": "2021-01-15"
+		},
+		{
+			"title": "madarna Vaccine",
+			"info": "",
+			"itemStyle": "#f45722",
+			"link": "http://www.flatlogic.com",
+			"date": "2021-01-13"
+		}
+	],
+	"News": [
+		{
+			"title": "Modarna crisis",
+			"info": "its reported that modarna has problems",
+			"link": "www.google.com"
+		},
+		{
+			"title": "Modarna crisis",
+			"info": "its reported that modarna has problems",
+			"link": "www.google.com"
+		},
+		{
+			"title": "Uk stores filled with ...",
+			"info": "its reported that modarna has problems",
+			"link": "www.google.com"
+		},
+		{
+			"title": "Alpha two of Russia",
+			"info": "its reported that modarna has problems",
+			"link": "www.google.com"
+		},
+		{
+			"title": "China new Vaccine",
+			"info": "its reported that modarna has problems",
+			"link": "www.google.com"
+		}
+	]
 }
